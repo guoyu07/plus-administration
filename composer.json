@@ -1,0 +1,13 @@
+{
+    "name": "medz/plus-administration",
+    "description": "非官方 ThinkSNS+ 管理后台",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Seven Du",
+            "email": "shiweidu@outlook.com"
+        }
+    ],
+    "require": {}
+}
