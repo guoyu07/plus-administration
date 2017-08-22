@@ -1,0 +1,9 @@
+{
+  "name": "plus-administration",
+  "version": "0.0.1",
+  "description": "非官方 ThinkSNS+ 管理后台模块接口。",
+  "main": "assets/hook.js",
+  "repository": "https://github.com/medz/plus-administration",
+  "author": "Seven Du <shiweidu@outlook.com>",
+  "license": "MIT"
+}
