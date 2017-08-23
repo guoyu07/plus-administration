@@ -1,0 +1,17 @@
+{
+  "name": "plus-admin-hook",
+  "version": "1.0.0",
+  "description": "ThinkSNS+ 非官方后台模块钩子。",
+  "main": "index.js",
+  "author": "Seven Du <shiweidu@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "build": "webpack --progress --colors"
+  }
+}

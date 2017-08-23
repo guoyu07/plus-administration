@@ -12,23 +12,19 @@
 import path from 'path';
 import webpack from 'webpack';
 
-// 各项资源地址定义
-const assetsRoot = path.resolve(__dirname, 'resources', 'assets');
-const buildAssetsRoot = path.join(__dirname, 'assets/');
-
 const webpackConfig = {
-  entry: {
-    app: path.resolve(assetsRoot, 'main.js')
-  },
+  entry: path.resolve(__dirname, 'hook.js'),
   output: {
-    path: buildAssetsRoot,
-    filename: '[name].js'
+    path: __dirname,
+    filename: 'index.js',
+    library: 'hook',
+    libraryTarget: 'umd',
   },
   module: {
     rules: [
       {
         test: /.js$/,
-        include: [ assetsRoot ],
+        include: [ __dirname ],
         use: [ 'babel-loader' ]
       }
     ]
